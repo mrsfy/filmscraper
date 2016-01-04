@@ -1,5 +1,5 @@
 {
-  "name": "seriesscrapper",
+  "name": "filmscraper",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrsfy/series_scrapper.git"
+    "url": "https://github.com/mrsfy/filmscraper.git"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,8 @@
   },
   "homepage": "https://github.com/mrsfy/series_scrapper#readme",
   "dependencies": {
+    "async": "^1.5.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.4"
   }
 }
